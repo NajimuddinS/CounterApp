@@ -5,7 +5,6 @@ import { TfiReload } from "react-icons/tfi";
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 import Switch from "react-switch";
-import { useRef } from "react";
 import { useEffect } from "react";
 
 function Counter() {
