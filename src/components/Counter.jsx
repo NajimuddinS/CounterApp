@@ -5,12 +5,10 @@ import { TfiReload } from "react-icons/tfi";
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 import Switch from "react-switch";
-import { useRef } from "react";
 import { useEffect } from "react";
 
 function Counter() {
   const [count, setCount] = useState(0);
-  const ref = useRef(null);
   const [checked, setChecked] = useState(false);
 
   function add() {
@@ -97,8 +95,6 @@ function Counter() {
               activeBoxShadow="0px 0px 1px 10px rgba(0, 0, 0, 0.2)"
               height={20}
               width={48}
-              // className="react-switch"
-              // id="material-switch"
             />
           </label>
         </div>
